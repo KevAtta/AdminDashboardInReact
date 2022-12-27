@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#root {
+  /* font-family: "Open Sans", sans-serif; */
+  color: #343a40;
+  font-size: 2.4rem;
+
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+  grid-template-rows: 5rem 8rem 1fr;
+
+  height: 100vh;
+}
+
+.messaggioErrore {
+  color: rebeccapurple;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.immagine {
+  height: 400px;
+  transition: 400ms all;
+}
+
+.immagine:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.titoloSecondaSezione {
+  text-align: center;
+  padding-top: 10px;
+}

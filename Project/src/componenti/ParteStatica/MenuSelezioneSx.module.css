@@ -1,0 +1,51 @@
+.menu {
+  padding-top: 2.4rem;
+  padding-left: 1.5rem;
+  grid-row: 3 /-1;
+  background-color: #f7ecdee8;
+  border-top: 1px solid #dee2e6;
+}
+
+.menu-sx {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menu-sx li {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.menu-sx li:hover {
+  border-left: 2px solid #000;
+}
+
+.prima-voce {
+  border-left: transparent;
+}
+
+.seconda-voce {
+  border-left: transparent;
+}
+
+.terza-voce {
+  border-left: transparent;
+}
+
+.attivo {
+  border-left: 2px solid #000;
+}
+
+.icona-men-sx {
+  align-self: center;
+}
+
+.link-sx {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}

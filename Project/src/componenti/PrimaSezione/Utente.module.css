@@ -1,0 +1,60 @@
+.utente {
+  background-color: #fff;
+  padding: 2rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr 30rem 13rem 1fr;
+  column-gap: 30rem;
+  align-items: center;
+
+  border-radius: 2rem;
+}
+.utente:hover {
+  background-color: #91a7ff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.5);
+}
+
+.nome-lista-utenti {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.placeholder {
+  float: left;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.nome {
+  font-size: 1.5rem;
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+}
+
+.email {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.icone-lista-utente {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.bidone {
+  color: red;
+  text-decoration: none;
+}
+
+.matita {
+  text-decoration: none;
+  color: #000;
+}

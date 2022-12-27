@@ -1,0 +1,74 @@
+.sezione {
+  grid-column: 2 / -1;
+  grid-row: 3/ -1;
+  background-color: #f7ecde6c;
+}
+
+.titolo-sezione {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.post-list {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+
+  /* max-height: 160rem; */
+  /* max-width: 100%; */
+  background-color: #f7ecde6c;
+  /* overflow-x: hidden; */
+
+  /* overflow: scroll; */
+}
+
+.post-card {
+  /* width: 33%; */
+  flex-basis: content;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  background-image: linear-gradient(to left bottom, #f7ecde6c, #74c0fc);
+}
+
+.post-card a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fff;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.post-card a:hover {
+  box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+  top: -5px;
+  left: -5px;
+}
+
+.profilo-autore-post {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.id-autore {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: medium;
+}
+
+.corpo-post {
+  font-size: large;
+}
+
+.contenuto-post {
+  text-align: center;
+}

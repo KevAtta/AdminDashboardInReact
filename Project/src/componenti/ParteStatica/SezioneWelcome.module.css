@@ -1,0 +1,30 @@
+nav {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  background-color: #f7ecdebd;
+  grid-column: 1 /-1;
+  color: #000;
+}
+
+.img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info-profilo {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.link-refresh {
+  text-decoration: none;
+  color: #000;
+}
+
+.img-profilo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}

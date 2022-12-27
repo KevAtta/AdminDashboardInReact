@@ -1,0 +1,45 @@
+.posizione-bottone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titolo {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.form-aggiunta-utenti label,
+.form-aggiunta-utenti input {
+  display: block;
+}
+
+.form-aggiunta-utenti label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.form-aggiunta-utenti input {
+  width: 100%;
+}
+
+.bottone-conferma {
+  width: 100%;
+  padding: 10px 0;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

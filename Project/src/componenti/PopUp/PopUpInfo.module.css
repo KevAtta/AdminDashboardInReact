@@ -1,0 +1,63 @@
+.popup {
+  background-color: #aa8b5669;
+  background-color: #f2deba;
+}
+
+.posizione-bottone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottoni-selezione {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.bottone-selezione {
+  padding: 10px 15px 10px 15px;
+  width: 200px;
+  background-color: #aa8b56;
+  color: #000;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bottone-selezione:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.bottonesx {
+  border-radius: 20px 0 0 0;
+}
+
+.bottonedx {
+  border-radius: 0 20px 0 0;
+}
+
+.bottone-selezione.attivo {
+  background-color: #fff;
+}
+
+.corpo {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 0 10px 10px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: red;
+}
